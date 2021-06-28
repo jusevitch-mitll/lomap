@@ -30,7 +30,7 @@ Linux (Ubuntu)
     sudo sh -c "echo 'deb http://www.lrde.epita.fr/repo/debian/ stable/' >> /etc/apt/sources.list"
     sudo apt update
     sudo apt install spot libspot-dev spot-doc
-    sudo apt install python3-spot # For python3 support
+    sudo apt install python3-spot # For python3 support. \[Not needed?\]
     ```
 
 3. Install necessary dependencies:
@@ -50,9 +50,9 @@ Linux (Ubuntu)
     ```
 
   * Note: Ensure that Python 2.7 is installed.
-  * Note: If Python3, install matplotlib==2.2.3 in order to maintain compatibility with network 1.11
-  * Note: If Python3, there is not easy way to install `pp` package.
-
+  * Note: If Python3, install matplotlib==2.2.5 in order to maintain compatibility with network 1.11
+  * Note: If Python3, the pp package can be installed from this (unofficial) Github repository: https://github.com/jusevitch-mitll/pp3
+  
 4. Download and unpack _ltl2dstar_
   * Download from: https://www.ltl2dstar.de/
   * Unpack _ltl2dstar_
